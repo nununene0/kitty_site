@@ -1,0 +1,90 @@
+                                    .my_projects_wrapper {
+                                    background-color: bisque;
+                                }
+                                
+                                .skill1 {
+                                    position: relative;
+                                }
+                                
+                                .skill1::before {
+                                    content: "";
+                                    width: 445px;
+                                    height: 5px;
+                                    background: bisque;
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                }
+                                
+                                .skill1 {
+                                    position: relative;
+                                }
+                                
+                                .skill1::after {
+                                    content: "";
+                                    width: 400px;
+                                    height: 5px;
+                                    background-color: crimson;
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                }
+                                
+                                .header {
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                }
+                                
+                                p {
+                                    Background: #4682B4;
+                                    /* border: 0px #4682B4 ridge;
+    width: 1200px;
+    padding: 40px 0 20px 15px; */
+                                    /* margin: 20px */
+                                }
+                                
+                                body {
+                                    background-color: #FFFAFA;
+                                }
+                                
+                                iframe {
+                                    margin-top: 300px;
+                                    margin-left: 10px;
+                                    margin-right: 10px;
+                                }
+                                
+                                .send_button {
+                                    cursor: pointer;
+                                    width: 190px;
+                                    height: 55px;
+                                    border: 0;
+                                    background-color: lightblue;
+                                    color: grey;
+                                    margin-bottom: 50px;
+                                    border-radius: 5px;
+                                }
+                                /* body {
+    background-color: black;
+} */
+                                
+                                .facts {
+                                    float: left;
+                                }
+                                
+                                .section_facts_3 {
+                                    display: inline;
+                                }
+                                
+                                .div_facts_1 {
+                                    margin-left: 500px;
+                                }
+                                
+                                .div_facts_2 {
+                                    margin-left: 0px;
+                                }
+                                
+                                .div_facts_3 {
+                                    position: relative;
+                                    bottom: 450px;
+                                    left: 420px;
