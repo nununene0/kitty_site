@@ -1,0 +1,130 @@
+.cattt {
+    width: 150px;
+    height: 150px;
+}
+
+.ramirez {
+    width: 150px;
+    height: 150px;
+}
+
+.cato {
+    width: 150px;
+    ;
+    height: 150px;
+    ;
+}
+
+.littlecat {
+    width: 150px;
+    height: 150px;
+}
+
+.cutecat {
+    width: 150px;
+    height: 150px;
+}
+
+.psih {
+    width: 210px;
+    height: 150px;
+}
+
+.bebra {
+    width: 900px;
+    height: 720px;
+}
+
+.baby {
+    width: 400px;
+    height: 600;
+}
+
+.section_facts {
+    background-color: rgba(240, 234, 207, 0.993);
+    height: 10 px;
+}
+
+.pink {
+    color: rgb(221, 168, 215);
+}
+
+#infore {
+    display: none;
+}
+
+.kit {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 600px;
+}
+
+.kit1 {
+    animation: fade1 1s linear infinite;
+    /* animation-delay: 0.1s; */
+}
+
+.kit2 {
+    animation: fade2 1s linear infinite;
+    /* animation-delay: 0.1s; */
+}
+
+.kit3 {
+    animation: fade3 1s linear infinite;
+    /* animation-delay: 0.1s; */
+}
+
+@keyframes fade1 {
+    0% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    75% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
